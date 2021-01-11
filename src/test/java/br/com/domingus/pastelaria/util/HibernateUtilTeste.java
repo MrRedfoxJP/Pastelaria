@@ -6,6 +6,7 @@ import org.junit.Test;
 public class HibernateUtilTeste {
 	@Test
 	public void conectar() {
+		//TESTE
 		Session sessao = HibernateUtil.getFabricaDeSessoes().openSession();
 		sessao.close();
 		HibernateUtil.getFabricaDeSessoes().close();
